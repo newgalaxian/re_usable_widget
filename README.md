@@ -4,9 +4,9 @@
 A new Flutter project.
 
 
-<img src="https://github.com/newgalaxian/re_usable_widget/blob/master/re_usable_widget_1.jpg" alt="eusable widgets" width="500" height="600">
+<img src="https://github.com/newgalaxian/re_usable_widget/blob/master/re_usable_widget_1.jpg" alt="eusable widgets" >
 
-<img src="https://github.com/newgalaxian/re_usable_widget/blob/master/re_usable_widget_1.jpg" alt="eusable widgets" width="500" height="600">
+<img src="https://github.com/newgalaxian/re_usable_widget/blob/master/re_usable_widget_2.jpg" alt="eusable widgets" >
 
 
 
