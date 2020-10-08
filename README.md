@@ -39,7 +39,7 @@ Card with radius
  Making widget Reusable
  --------------
  
-     Widget _card(Color color, String text) {
+     Widget _card(Color color, String text) { //color and text added ,you can add more ..
      return InkWell(
      onTap: () {
       scaffoldKey.currentState.showSnackBar(snackBar);
