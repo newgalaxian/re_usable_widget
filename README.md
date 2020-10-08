@@ -3,8 +3,12 @@
 
 A new Flutter project.
 
-https://github.com/newgalaxian/re_usable_widget/blob/master/re_usable_widget_1.jpg
-https://github.com/newgalaxian/re_usable_widget/blob/master/re_usable_widget_2.jpg
+
+<img src="https://github.com/newgalaxian/re_usable_widget/blob/master/re_usable_widget_1.jpg" alt="eusable widgets" width="500" height="600">
+
+<img src="https://github.com/newgalaxian/re_usable_widget/blob/master/re_usable_widget_1.jpg" alt="eusable widgets" width="500" height="600">
+
+
 
 ## Getting Started
 
