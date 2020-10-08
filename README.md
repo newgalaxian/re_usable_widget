@@ -6,7 +6,7 @@ A new Flutter project.
 Card with radius
 -----------------
 
-Card(
+    Card(
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16.0),
       ),
@@ -28,7 +28,7 @@ Card(
 
  Clickable Card 
  -------------
- InkWell(
+     InkWell(
     onTap: () {
       scaffoldKey.currentState.showSnackBar(snackBar);
     },
