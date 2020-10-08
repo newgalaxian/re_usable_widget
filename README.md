@@ -26,6 +26,8 @@ Card with radius
 
  Clickable Card 
  -------------
+ InkWell() gives clickable property
+ 
      InkWell(
     onTap: () {
       scaffoldKey.currentState.showSnackBar(snackBar);
@@ -83,7 +85,9 @@ Card with radius
               ),
               );
               
-  -------------------------            
+  -------------------------    
+  
+  
 <img src="https://github.com/newgalaxian/re_usable_widget/blob/master/re_usable_widget_1.jpg" alt="eusable widgets" >
 
 <img src="https://github.com/newgalaxian/re_usable_widget/blob/master/re_usable_widget_2.jpg" alt="eusable widgets" >
