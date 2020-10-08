@@ -1,8 +1,6 @@
 # Reusable widgets in Flutter
 
 
-A new Flutter project.
-
 Card with radius
 -----------------
 
@@ -36,6 +34,56 @@ Card with radius
     ....
     ....)
     
+ Making widget Reusable
+ --------------
+ 
+     Widget _card(Color color, String text) {
+     return InkWell(
+     onTap: () {
+      scaffoldKey.currentState.showSnackBar(snackBar);
+     },
+     child: Card(
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16.0),
+      ),
+      elevation: 5,
+      margin: EdgeInsets.all(10),
+      color: color,
+      child: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Text(
+          text,
+          textAlign: TextAlign.center,
+          style: TextStyle(
+            fontSize: 20.0,
+            color: Colors.white,
+          ),
+        ),
+      ),
+     ),
+    );
+    }
+    
+ ----------------------------------
+ 
+ Using this widget
+ -----------
+ Using ListView for inbuild scrolling
+ 
+     ListView(
+        children: [
+          Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+            
+              _card(Colors.blue, 'from widget'), // using card widget and changing colors and text
+              _card(Colors.green, 'green'),
+              ],
+              ),
+              );
+              
+  -------------------------            
 <img src="https://github.com/newgalaxian/re_usable_widget/blob/master/re_usable_widget_1.jpg" alt="eusable widgets" >
 
 <img src="https://github.com/newgalaxian/re_usable_widget/blob/master/re_usable_widget_2.jpg" alt="eusable widgets" >
